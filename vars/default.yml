@@ -1,0 +1,8 @@
+---
+ansible_python_interpreter: /usr/bin/python3
+mysql_root_password: "root"
+app_user: "ansible"
+http_host: "ansible_node1"
+http_conf: "ansible_node1.conf"
+http_port: "80"
+disable_default: true

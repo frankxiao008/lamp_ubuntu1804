@@ -1,0 +1,15 @@
+  
+  
+  
+  ansible-playbook playbook.yml --extra-vars "ansible_sudo_pass=ansible"
+  Testing After run ansible-playbook palybook.yml
+open the node1 
+for example: 192.168.2.83/info.php
+
+then you can at node1 to test the mysql
+go to terminal
+type:
+mysql -u root -p
+pw: root
+show databases;
+exit
